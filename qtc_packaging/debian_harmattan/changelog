@@ -1,0 +1,36 @@
+vumeter (0.2.1) stable; urgency=low
+
+  * Fix reset of maximum value.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sun, 09 Oct 2011 20:37:00 +0000
+
+vumeter (0.2.0) stable; urgency=low
+
+  * First version to be publicly announced. Fixes several minor issues that may have impacted the user experience.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sun, 09 Oct 2011 20:29:00 +0000
+
+vumeter (0.1.3) stable; urgency=low
+
+  * Add more methods for forwarding calls from QML to the Qt-based widgets.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sat, 03 Sep 2011 12:28:00 +0000
+
+vumeter (0.1.2) stable; urgency=low
+
+  * Fix installation.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sat, 03 Sep 2011 11:58:00 +0000
+
+vumeter (0.1.1) stable; urgency=low
+
+  * Fix build.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Thu, 01 Sep 2011 20:54:00 +0000
+
+vumeter (0.1.0) stable; urgency=low
+
+  * Initial version for Harmattan.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sun, 28 Aug 2011 20:19:00 +0000
+

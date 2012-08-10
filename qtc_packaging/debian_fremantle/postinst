@@ -1,0 +1,8 @@
+#!/bin/sh
+ln -s /opt/maemo/usr/bin/vumeter /usr/bin/vumeter
+
+# At the time of writing gtk-update-icon-cache is a noop. 
+# Furthermore, icons not getting displayed properly after install is a known bug.
+# See: https://bugs.maemo.org/show_bug.cgi?id=6931
+# Hence, commenting the line below.
+#gtk-update-icon-cache /usr/share/icons/hicolor

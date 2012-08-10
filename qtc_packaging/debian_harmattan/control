@@ -1,0 +1,46 @@
+Source: vumeter
+Section: user/multimedia
+Priority: extra
+Maintainer: Ruediger Gad <r.c.g@gmx.de>
+Build-Depends: debhelper (>= 5), libqt4-dev, pulseaudio-dev, libqmsystem2-dev, applauncherd-dev
+Standards-Version: 3.7.2
+
+Package: vumeter
+Architecture: armel
+Depends: libqt4-core, libqt4-gui, libqt4-opengl, pulseaudio
+Description: vumeter is a very simplistic VU Meter.
+XSBC-Bugtracker: https://garage.maemo.org/tracker/?group_id=1955
+XB-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c
+ 6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0
+ SU1FB9oLFxUbHoy7XLwAAAT0SURBVEjHtZZ9TFV1GMc/v3PPOTcucC9XkBel
+ lUxIEERw/pOwDNesBKyZlivcRFz6R+bypQWmtZat+Y/NUJu66SorZ0v/0NZ0
+ c5AgEdz1MlMwmAI6kgtyuZfrvefce05/IHiVN8v5bOds55zn93yf5znf50UU
+ FS0qUBT1K0VREngEouu6W9e1MllR1G8cDsd0SZKEEALTNMF8SOsChm0ZhmHz
+ eDxHZUVRYiVJEpqm0XalFUVRADBN83/hCQAhCOsh0tLTUVVVKIpil4feC9pa
+ W7E748iZk0teXj52ewwOh4M4hx1FUSc0Hg6H8fq8eL0+/P7bNP3aSGNjI21X
+ WsnKzgFABjBME1lVyHhqFiWlS0lIiMcW9Rj2qVNJcsahWCwTAhmGwa3+W/h8
+ fmpqaiha9BxBTeeXC/UY5lBepBFt0yQ9I4OPd2ynYtUqXJdbsG/ciNnRMZLK
+ SIl8Nk2TcNigq7OTHVVVfFD1Hjlz5kCEjhx5OBAIsLmyioT4KUxJTSWqoZ7Q
+ rl00rS6no+MavW43gWAQW1QU8VMTKZqWgj03F6xWhKKQkpLCRzt3EmuPo729
+ /R7H5PvTEAgE8Pl8nDt8mJazZ/nU5eLpr48Sr6oosgJiKAK/rnOt1z1EgPx8
+ 5LVrCRUUkjk7m76+WwghJgYCUFWVg1/sR1IUpgGJTifWYUbdSXOsqhLT68YE
+ hMuFc/16nEDTuRowRvNVGgvIYpF5saQEv2lyymaj2O8fromhC0jTtBE6Dzsw
+ sGgR+rSUCI8miSgYDPDa629w5MgRdgvBIZ+XxzdsICsrk+joGHo9/STV1cOh
+ gzA4OHLOvWUrln7PmMwcE0gIgdPp5KczZ8hLn0l0cjJV726FO8UMwIoV8Nlu
+ 6O4mXFeHdvw4Wm4udHY9ONBQEYZ4csYM5MRESE6mu6GB6zYb8+bNo+78eSwW
+ C5gm0TGx5CxbxsALzyN13Ri31uRJmglWIaC6mtMLn+X08lfYv2cPBYWFzM/L
+ JxQO0fZ3G3uqqyl9+aUJW9a4QJIk6O11s66iAqss870RxrlyJbW1teTOzqbR
+ 1QzA/Lx8dF0fRecHYp0JmAYUFRSyePFilpaVMQAUZ2Vxoa6e/v5+npieSmpS
+ MoZhUF6xhmAwOCHQ2GSQBD+ePsWMtDTe2vg2mqbxg6LyanMTDS4Xldu2sXpN
+ OT09PWTOTOfmzZtIkuW/RyTLCjduXEe1WgHY8s4m9ienwM5PuNTWTmZWFn19
+ fZw8cYJw2MDhcDDZUBkTSNc0iktK6bh6lVnpGfS43SzcvAm6u8mMjWFdRQXP
+ LFjA8WPH+PPyX6iqOuk/ksfjW1JKMq6LF0lMiL/74btv+bmyEpYsGTWPJhPp
+ /kK9O2NMgoEAwWBwZCScLCqifPNWDhw4gGEYo0bHeLbuBRKCrs5OLBYLQgiE
+ EEiShCRJCCHYV/05b+7dR+1tPx++v50Vy5aPGIvUF0JgsVhob2+7p+fJAJIQ
+ hDSdy5cuYrNFMXduHgOeftzuHv7pjkNRZPZW78PucAAQHR3NH7//RktLC7qu
+ Y4QNPN4BvF4fg4ODNDc109zchK7pSMPOFBeX9sfExDiCwSDtV1qRFSViMN7l
+ kkWSxtwVGDYUcUcwspxYrVZ8Pt+AHArpPsM07VarVWRl5zz0phVJKHNonzBD
+ Id0na5pWNuDxfCnLsuNRLJChUMijadqqfwFaogFUHeIt3gAAAABJRU5ErkJg
+ gg==
+ ====

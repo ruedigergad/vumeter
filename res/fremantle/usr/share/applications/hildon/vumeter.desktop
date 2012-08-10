@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VU Meter
+GenericName=VU Meter
+Comment=A very simple VU Meter
+Exec=/usr/bin/vumeter
+Icon=vumeter
+Terminal=false
+Type=Application
+Categories=AudioVideo;
+

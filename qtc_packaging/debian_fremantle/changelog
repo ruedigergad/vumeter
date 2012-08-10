@@ -1,0 +1,193 @@
+vumeter (0.11.2) stable; urgency=low
+
+  * Use ">" instead of "!=" for comparison of the trigger value.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Tue, 21 Dec 2010 10:42:00 +0000
+
+vumeter (0.11.1) stable; urgency=low
+
+  * Do not trigger for a trigger value == 0.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Tue, 21 Dec 2010 00:17:00 +0000
+
+vumeter (0.11.0) stable; urgency=low
+
+  * Add "interpolation" option.
+  * Add functionality to restore default settings.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sun, 12 Dec 2010 14:14:00 +0000
+
+vumeter (0.10.1-1) stable; urgency=low
+
+  * Try to fix changelog.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sat, 11 Dec 2010 16:44:00 +0000
+
+vumeter (0.10.1) stable; urgency=low
+
+  * Add date to log output.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sat, 11 Dec 2010 00:42:48 +0000
+
+vumeter (0.10.0) stable; urgency=low
+
+  * Add option for log output.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 10 Dec 2010 23:45:34 +0000
+
+vumeter (0.9.0) stable; urgency=low
+
+  * Add settings options for colors, restore last used widget on startup, fix horizontal bar widget scale. 
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 10 Dec 2010 19:53:06 +0000
+
+vumeter (0.8.0) stable; urgency=low
+
+  * Add option for colored display of horizontal-bar and line-chart widget.  
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Wed, 08 Dec 2010 22:27:52 +0000
+
+vumeter (0.7.0) stable; urgency=low
+
+  * Add count for trigger, support for auto rotation, and an option for selecting a monitor as input. 
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Wed, 08 Dec 2010 09:30:49 +0000
+
+vumeter (0.6.1) stable; urgency=low
+
+  * Give settings dialog a meaningful name. 
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Wed, 08 Dec 2010 00:27:16 +0000
+
+vumeter (0.6.0) stable; urgency=low
+
+  * Add functionality to trigger commands by volume.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Wed, 08 Dec 2010 00:04:06 +0000
+
+vumeter (0.5.2) stable; urgency=low
+
+  * Clean up code.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Tue, 07 Dec 2010 22:17:00 +0000
+
+vumeter (0.5.1) stable; urgency=low
+
+  * Further optimize code. Fix memory leaks.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Tue, 07 Dec 2010 08:30:32 +0000
+
+vumeter (0.5.0) stable; urgency=low
+
+  * Optimize performance.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Mon, 06 Dec 2010 23:24:39 +0000
+
+vumeter (0.4.0) stable; urgency=low
+
+  * Add two (horizontal bar and line chart) new displays.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 03 Dec 2010 15:45:25 +0000
+
+vumeter (0.3.3) stable; urgency=low
+
+  * Change icon. Thanks to xman for creating this icon. 
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Tue, 23 Nov 2010 21:32:42 +0000
+
+vumeter (0.3.2) stable; urgency=low
+
+  * Undo "center text in combo box".
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Mon, 22 Nov 2010 22:05:45 +0000
+
+vumeter (0.3.1) stable; urgency=low
+
+  * Center text in combo box.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sat, 20 Nov 2010 21:29:55 +0000
+
+vumeter (0.3.0) stable; urgency=low
+
+  * Change source labels.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Sat, 20 Nov 2010 19:57:17 +0000
+
+vumeter (0.2.5) stable; urgency=low
+
+  * Adjust icon.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 19 Nov 2010 15:20:27 +0000
+
+vumeter (0.2.4-1) stable; urgency=low
+
+  * Add missing icon.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 19 Nov 2010 14:55:16 +0000
+
+vumeter (0.2.4) stable; urgency=low
+
+  * Add new icon.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 19 Nov 2010 11:11:19 +0000
+
+vumeter (0.2.3) stable; urgency=low
+
+  * Correctly reset value to zero after changing audio source.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 19 Nov 2010 09:01:30 +0000
+
+vumeter (0.2.2) stable; urgency=low
+
+  * Set dB scale as default.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 19 Nov 2010 08:47:59 +0000
+
+vumeter (0.2.0) stable; urgency=low
+
+  * Add linear scale.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Fri, 19 Nov 2010 08:15:34 +0000
+
+vumeter (0.1.1) stable; urgency=low
+
+  * Fix "dB" not displayed issue.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Thu, 18 Nov 2010 23:29:40 +0000
+
+vumeter (0.1.0) stable; urgency=low
+
+  * Improve display of the dB meter.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Thu, 18 Nov 2010 22:06:01 +0000
+
+vumeter (0.0.5) stable; urgency=low
+
+  * Use a graphical dB meter.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Thu, 18 Nov 2010 21:43:42 +0000
+
+vumeter (0.0.4) stable; urgency=low
+
+  * Change meter range.
+  * Improve calculation of dB values. 
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Thu, 18 Nov 2010 16:42:29 +0000
+
+vumeter (0.0.3) stable; urgency=low
+
+  * Add combo box for selecting source. Add radio buttons for choosing scale. 
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Thu, 18 Nov 2010 11:56:10 +0000
+
+vumeter (0.0.2) stable; urgency=low
+
+  * Change window title. Fix icon in application manager.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Wed, 17 Nov 2010 11:11:19 +0000
+
+vumeter (0.0.1) stable; urgency=low
+
+  * Initial version
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Wed, 17 Nov 2010 10:11:19 +0000
