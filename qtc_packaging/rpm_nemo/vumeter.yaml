@@ -1,0 +1,22 @@
+Name: vumeter
+Summary: VUMeter -- A Simplistic VU-Meter
+Version: 0.2.1
+Release: 1
+Group: Applications/Multimedia
+License: GPLv3
+URL: http://vumeter.garage.maemo.org/
+Sources:
+    - "%{name}_%{version}.tar.gz"
+Description:  
+ VUMeter is a fun-tool to display the sound level. VUMeter presents the current sound level using different views.
+
+PkgConfigBR:
+    - QtCore >= 4.7.0
+    - QtGui
+    - qdeclarative-boostable
+Configure: none
+Builder: qmake 
+Files:
+    - "%{_datadir}/applications/%{name}.desktop"
+    - "/opt/%{name}"
+    - "%{_datadir}/icons/hicolor/*/apps/%{name}.png"
