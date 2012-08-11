@@ -12,12 +12,13 @@ Summary:    VUMeter -- A Simplistic VU-Meter
 Version:    0.2.1
 Release:    1
 Group:      Applications/Multimedia
-License:    GPLv3
+License:    GPLv2
 URL:        http://vumeter.garage.maemo.org/
 Source0:    %{name}_%{version}.tar.gz
 Source100:  vumeter.yaml
 BuildRequires:  pkgconfig(QtCore) >= 4.7.0
 BuildRequires:  pkgconfig(QtGui)
+BuildRequires:  pkgconfig(QtOpenGL)
 BuildRequires:  pkgconfig(qdeclarative-boostable)
 BuildRequires:  pkgconfig(libpulse)
 BuildRequires:  pkgconfig(libpulse-simple)
@@ -62,5 +63,6 @@ desktop-file-install --delete-original       \
 %{_datadir}/applications/%{name}.desktop
 /opt/%{name}
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
+%{_datadir}/icons/hicolor/*/apps/%{name}.svg
 # >> files
 # << files
