@@ -19,6 +19,8 @@ Source100:  vumeter.yaml
 BuildRequires:  pkgconfig(QtCore) >= 4.7.0
 BuildRequires:  pkgconfig(QtGui)
 BuildRequires:  pkgconfig(qdeclarative-boostable)
+BuildRequires:  pkgconfig(libpulse)
+BuildRequires:  pkgconfig(libpulse-simple)
 BuildRequires:  desktop-file-utils
 
 %description

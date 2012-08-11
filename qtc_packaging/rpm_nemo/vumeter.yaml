@@ -14,6 +14,8 @@ PkgConfigBR:
     - QtCore >= 4.7.0
     - QtGui
     - qdeclarative-boostable
+    - libpulse
+    - libpulse-simple
 Configure: none
 Builder: qmake 
 Files:
