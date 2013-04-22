@@ -63,7 +63,7 @@ linux-g++-maemo5 {
 }
 
 # Harmattan specific stuff goes here.
-exists($$QMAKE_INCDIR_QT"/../applauncherd/MDeclarativeCache"): {
+exists($$QMAKE_INCDIR_QT"/../mdeclarativecache/MDeclarativeCache"): {
     MEEGO_VERSION_MAJOR     = 1
     MEEGO_VERSION_MINOR     = 2
     MEEGO_VERSION_PATCH     = 0
